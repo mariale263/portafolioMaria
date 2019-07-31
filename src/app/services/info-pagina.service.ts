@@ -29,7 +29,7 @@ export class InfoPaginaService {
   }
 
   private cargarEquipo(){
-    //Leer el archivo json
+    // Leer el archivo json
     this.http.get('https://angular-html-24b0d.firebaseio.com/equipo.json')
     .subscribe( (resp: any[]) => {
       this.equipo = resp;
