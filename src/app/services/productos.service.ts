@@ -16,13 +16,17 @@ export class ProductosService {
 
    }
 
-   private cargarProductos(){
+   private cargarProductos() {
 
     this.http.get('https://angular-html-24b0d.firebaseio.com/productos_idx.json')
     .subscribe((resp: Producto[]) => {
       console.log(resp);
       this.productos = resp;
-      this.cargando = false;
+      // this.cargando = false;
+
+      setTimeout(() => {  // opcional ya q ya sabemos que el louding funciona
+        this.cargando = false;
+      }, 1000);
     });
 
 
