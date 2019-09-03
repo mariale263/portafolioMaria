@@ -24,7 +24,7 @@ export class ProductosService {
       this.productos = resp;
       // this.cargando = false;
 
-      setTimeout(() => {  // opcional ya q ya sabemos que el louding funciona
+      setTimeout(() => {  // opcional ya q ya sabemos que el loading funciona
         this.cargando = false;
       }, 1000);
     });
