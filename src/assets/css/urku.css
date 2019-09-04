@@ -1362,7 +1362,7 @@ body {
   }
 }
 
-
+/**/
 #layout-grid:checked ~ .rk-portfolio,
 #layout-grid:checked ~ .rk-blog {
   -webkit-animation: op2 .5s;
