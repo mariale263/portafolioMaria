@@ -1320,6 +1320,9 @@ body {
 
 .item-inside__meta {
   text-align: center;
+  background-color: white;
+  width: 100%;
+  padding-top: 25px;
 }
 .item-inside__meta--contrast:before {
   background-color: rgba(255, 255, 255, .3);
